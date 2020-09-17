@@ -75,7 +75,7 @@ function MainContainer(props) {
             <div className="right-block">
               <div className="user">
                 <div>{message.from.name}</div>
-                <span>1:21 PM</span>
+              
               </div>
               <div className="user-message">{message.text}</div>
             </div>

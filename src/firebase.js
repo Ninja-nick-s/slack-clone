@@ -3,7 +3,16 @@ import 'firebase/auth';
 import 'firebase/firestore';
 require('dotenv').config();
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = process.env.FIREBASE_CONFIG;
+const firebaseConfig ={
+  apiKey: "AIzaSyBZ1o_exkCTUYTuZoNEuiyGkRuQJoVG7K0",
+  authDomain: "slack-clone-77cf1.firebaseapp.com",
+  databaseURL: "https://slack-clone-77cf1.firebaseio.com",
+  projectId: "slack-clone-77cf1",
+  storageBucket: "slack-clone-77cf1.appspot.com",
+  messagingSenderId: "21208344392",
+  appId: "1:21208344392:web:c1af3e4e267a289ac3f57d",
+  measurementId: "G-PS7H5RHL17"
+};
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);

@@ -11,7 +11,7 @@ class Sidebar extends Component {
           <div className="avatar">
             <img src="https://www.flaticon.com/svg/static/icons/svg/2919/2919600.svg" />
           </div>
-          <div>Ronald</div>
+          <div>Becrux</div>
           <div
             style={{ marginLeft: 10, marginTop: 2, cursor: 'pointer' }}
             onClick={signOut}
